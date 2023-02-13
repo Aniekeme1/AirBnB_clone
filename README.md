@@ -266,7 +266,7 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
     <summary>Mordecai Kipng'etich</summary>
     <ul>
     <li><a href="https://www.github.com/insidemordecai">Github</a></li>
-    <li><a href="https://www.twitter.com/Aysuarex">Twitter</a></li>
+    <li><a href="https://www.twitter.com/insidemordecai">Twitter</a></li>
     </ul>
 </details>
 <details>
