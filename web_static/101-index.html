@@ -1,192 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/101-places.css">
+    <title>AirBnB clone</title>
+  </head>
+  <body>
+    <header>
+    </header>
+    <div class="container">
+      <section class="filters">
+            <div class="locations">
+                  <h3>States</h3>
+                  <h4>Delta, Akwa Ibom ... </h4>
+                  <ul class="popover">
+                        <li>
+                              <h2>Delta State</h2>
+                              <p>One</p>
+                              <p>Two</p>
+                        </li>
+                        <li>
+                              <h2>Akwa Ibom State</h2>
+                              <p>One</p>
+                              <p>two</p>
+                        </li>
+                        <li>
+                              <h2>Edo State</h2>
+                              <p>One</p>
+                              <p>Two</p>
+                        </li>
+                  </ul>
+            </div>
+            <div class="amenities">
+                  <h3>Amenities</h3>
+                  <h4>Internet, Video Games, ... </h4>
+                  <ul class="popover">
+                        <li>
+                              <p>Internet</p>
+                              <p>Video Games</p>
+                              <p>Arcade Area</p>
+                              <p>Movie Area</p>
+                        </li>
+                  </ul>
+            </div>
+        <button type="button" name="button">Search</button>
+      </section> <!-- end fiter-->
 
-<head>
-      <link rel="stylesheet" href="styles/4-common.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-footer.css" type="text/css">
-      <link rel="stylesheet" href="styles/3-header.css" type="text/css">
-      <link rel="stylesheet" href="styles/6-filters.css" type="text/css">
-      <link rel="stylesheet" href="styles/101-places.css" type="text/css">
-      <title>AirBnB clone</title>
-      <link rel="tab icon" href="images/icon.png" type="image/png">
-</head>
+      <section class="places">
+        <h1>Places</h1>
+        <article><!-- My home -->
+          <div class="article_places_header">
+            <h2>My home</h2>
+            <div class="price_by_night">$80</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">2 Guests</div>
+            <div class="number_rooms">1 Bedroom</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> John Lennon</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>This is a lovely 1 bathroom apartament that can accommodate 2 people. It locates at the center of Shanghai and next to subway line 1, 1 stop to People Square, 2 stops to Bund, 3 stops to Jungan Temle.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>2 Reviews</h2>
+            <ul>
+              <li>
+                <h3>From Bob Dylan the 27th August 2022</h3>
+                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Connor 4th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article><!-- end My home -->
 
-<body>
-      <header>
-            <div class="logo"></div>
-      </header>
-      <div class="container">
-            <section class="filters">
-                  <div class="locations">
-                        <h3>States</h3>
-                        <h4>Kenya, Niger</h4>
-                        <ul class="popover">
-                              <li>
-                                    <h2>Nairobi</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
-                              </li>
-                              <li>
-                                    <h2>Mombasa</h2>
-                                    <p>One</p>
-                                    <p>two</p>
-                              </li>
-                              <li>
-                                    <h2>Naks</h2>
-                                    <p>One</p>
-                                    <p>Two</p>
-                              </li>
-                        </ul>
-                  </div>
-                  <div class="amenities">
-                        <h3>Amenities</h3>
-                        <h4>Wifi, Pets</h4>
-                        <ul class="popover">
-                              <li>
-                                    <p>Internet</p>
-                                    <p>TV</p>
-                                    <p>Kitchen</p>
-                              </li>
-                        </ul>
-                  </div>
-                  <button>Search</button>
-            </section>
-            <section class="places">
-                  <h1>Places</h1>
-
-                  <article>
-                        <h2>My home</h2>
-                        <div class="price_by_night">$10</div>
-                        <div class="information">
-                              <div class="max_guest">2 Guests</div>
-                              <div class="number_rooms">1 Bedroom</div>
-                              <div class="number_bathrooms">1 Bathroom</div>
-                        </div>
-                        <div class="user"><b>Owner</b>: Ovec Joe</div>
-                        <div class="description">
-                              This is a lovely 1 bedroom and 1 bathroom apartment that
-                              can accommodate 2 people. It locates at the center of
-                              Kaduna 1,1 stop to People
-                              Square, 2 stops to Bund, 3 stops to Michigan Tower
-                        </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="TV">
-                                          <p>TV</p>
-                                    </li>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                                    <li class="Peta">
-                                          <p>Pet friendly</p>
-                                    </li>
-                              </ul>
-                        </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
-
-                  <article>
-                        <h2>Tiny house</h2>
-                        <div class="price_by_night">Free</div>
-                        <div class="information">
-                              <div class="max_guest">4 Guests</div>
-                              <div class="number_rooms">2 Bedrooms</div>
-                              <div class="number_bathrooms">1 Bathroom</div>
-                        </div>
-                        <div class="user"><b>Owner</b>: Joe One</div>
-                        <div class="description">
-                              This is the personal residence of Bruce Wayne, who is also the superhero Batman. The
-                              residence is
-                              depicted as a large mansion on the outskirts of Gotham City and is maintained by the Wayne
-                              family's
-                              butler, Joe Ohachor.
-                        </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="TV">
-                                          <p>TV</p>
-                                    </li>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                              </ul>
-                        </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
-
-                  <article>
-                        <h2>A suite</h2>
-                        <div class="price_by_night">$180</div>
-                        <div class="information">
-                              <div class="max_guest">10 Guest</div>
-                              <div class="number_rooms">4 Bedrooms</div>
-                              <div class="number_bathrooms">3 Bath</div>
-                        </div>
-                        <div class="user"><b>Owner</b>: Firdaus Salim</div>
-                        <div class="description">
-                              This is a premium quality room located in the
-                              most important area of New York. It is close to downtown
-                              commerces and has a beatiful sight of central park.
-                              You will have all the amenities you desire and will
-                              definitely enjoy a great time.
-                              By yourself, with your lover, or your family, you will
-                              feel luxury from top to bottom.
-                        </div>
-                        <div class="amenities">
-                              <h2><b>Amenities</b></h2>
-                              <ul>
-                                    <li class="Wifi">
-                                          <p>Wifi</p>
-                                    </li>
-                                    <li class="Peta">
-                                          <p>Pet friendly</p>
-                                    </li>
-                              </ul>
-                        </div>
-                        <div class="reviews">
-                              <h2><b>2 Reviews</b></h2>
-                              <ul>
-                                    <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>It's a great place for vacationing</p>
-                                    </li>
-                                    <li>
-                                          <h3>From Two Three the 27th January 2022</h3>
-                                          <p>Perfect for a honey moon</p>
-                                    </li>
-                              </ul>
-                        </div>
-                  </article>
-
-            </section>
-      </div>
-      <footer>Best School</footer>
-</body>
-
+        <article>
+          <h2>Tiny house</h2>
+          <div class="price_by_night">$65</div>
+          <div class="information">
+            <div class="max_guest">4 Guests</div>
+            <div class="number_rooms">2 Bedrooms</div>
+            <div class="number_bathrooms">1 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Addrienne</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>Our place is a privete, afffordable satan-alone guest house centrally located just minutes to French Quarters, downtown th Fair Grounds (Jazz Fest) and City Park. The guest house is a quaint, 400 suare ft. with a full bath, mini kitchen, & livin room. The extra high cellings make the home feel more spacious. The sofa converts to bed also. We have a hand made counter area that adds character to the room and a great porch/deck to relax on and have a glass of Merlot.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Max the 15th August 2022</h3>
+                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+              </li>
+              <li>
+                <h3>From Connor 4th August 2022</h3>
+                <p>Higly recommended!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h2>A suite</h2>
+          <div class="price_by_night">$190</div>
+          <div class="information">
+            <div class="max_guest">5 Guests</div>
+            <div class="number_rooms">3 Bedroom</div>
+            <div class="number_bathrooms">2 Bathroom</div>
+          </div><!-- end information -->
+          <div class="user">
+            <p><b>Owner:</b> Mick Jagger</p>
+          </div><!-- end user -->
+          <div class="description">
+            <p>First loft built by Holbies. It contains a decked terrace, jacuzzi, firepit, rabbits garden, two rooms, two balconies, entrance gate, private garden, private parking, BBQ area, AC in each bedroom, technological equipment, luxury beds, and mountain views. Ideal for architecture lovers, romantic dates, or having a good time. It is a unique space of his kind. Only pets that do not harm rabbits are allowed.</p>
+          </div><!-- end description -->
+          <div class="amenities">
+            <h2>Amenities</h2>
+            <ul>
+              <li>
+                <div class="places_amenities_pet_friendly"></div>
+                Pet friendly
+            </li>
+              <li>
+                <div class="places_amenities_tv"></div>
+                Tv
+            </li>
+              <li>
+                <div class="places_amenities_wifi"></div>
+                Wifi
+            </li>
+            </ul>
+          </div>
+          <div class="reviews">
+            <h2>1 Review</h2>
+            <ul>
+              <li>
+                <h3>From Gary Moore the 13th August 2022</h3>
+                <p>I love this place. Amazing!</p>
+              </li>
+            </ul>
+          </div>
+        </article>
+        </section> <!-- end section -->
+    </div>
+    <footer>
+      <p>Best School</p>
+    </footer>
+  </body>
 </html>
